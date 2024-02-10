@@ -18,9 +18,16 @@ https://www.databricks.com/
 
 ## Transforming the dataset into a table.
 
-Due to being more familiar with SQL, I chose to create a table for the given dataset. Once cleaned, I can then start exploring potential insights within the data. The notebook has been uploaded to the GitHub 'Databricks Lloyds Table'; however, below is the Databricks link, which has a user-friendly UI.
+Due to being more familiar with SQL, I created a table for the given dataset. Once cleaned, I can then start exploring potential insights within the data. The notebook has been uploaded to the GitHub 'Databricks Lloyds Table'; however, the Databricks link below has a user-friendly UI.
 
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6510081755675969/848021024679828/568697543492321/latest.html
+
+## Databricks Notebook
+
+I will be conducting data manipulation and exploration within a Databricks notebook. This can be accessed via a published link, or developers can be granted access to make updates and view live changes. 
+
+
+
 
 
 
