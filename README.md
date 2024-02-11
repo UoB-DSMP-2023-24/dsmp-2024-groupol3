@@ -22,10 +22,11 @@ Due to being more familiar with SQL, I created a table for the given dataset. On
 
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6510081755675969/848021024679828/568697543492321/latest.html
 
-## Databricks Notebook
+## Data exploration Notebook
 
-I will be conducting data manipulation and exploration within a Databricks notebook. This can be accessed via a published link, or developers can be granted access to make updates and view live changes. 
+I will be conducting data manipulation and exploration within a Databricks notebook. This can be accessed via a published link, or developers can be granted access to make updates and view live changes. Like the link above, this link offers a user-friendly UI for the data exploration file. 
 
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6510081755675969/848021024679835/568697543492321/latest.html
 
 
 
