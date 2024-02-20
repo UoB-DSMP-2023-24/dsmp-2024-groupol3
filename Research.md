@@ -1,6 +1,6 @@
 Keiran Green Research 20/02/2024
-Banking Products Offered by Lloyds Banking Group & Competitors:
-Lloyds Bank 
+# Banking Products Offered by Lloyds Banking Group & Competitors:
+### Lloyds Bank 
 1. Current Accounts:
    - Lloyds offers a range of current accounts including basic banking accounts and packaged accounts with added benefits such as insurance and lifestyle perks.
 
@@ -25,9 +25,9 @@ Lloyds Bank
 
 
 
-Competitors
+## Competitors
 
-1. Barclays Bank:
+### 1. Barclays Bank:
 Current Accounts: Barclays offers a range of current accounts with features such as cashback, rewards, and overdraft facilities.
 
 Savings Accounts: Barclays provides various savings options including instant-access savings accounts, fixed-rate bonds, and ISAs (Individual Savings Accounts).
@@ -42,7 +42,7 @@ Insurance: Barclays offers insurance products such as home insurance, travel ins
 
 Digital Banking Services: Barclays offers online and mobile banking platforms with features like mobile check deposit, bill payment, and budgeting tools.
 
-2. HSBC:
+### 2. HSBC:
 
 
 
@@ -67,7 +67,7 @@ HSBC offers insurance products including home insurance, car insurance, and trav
 Digital Banking Services: 
 HSBC offers online and mobile banking platforms with features like mobile payments, account aggregation, and financial management tools.
 
-3. NatWest Group:
+### 3. NatWest Group:
 Current Accounts: 
 
 NatWest offers a range of current accounts with features such as cashback rewards, overdraft facilities, and mobile banking services.
@@ -90,7 +90,7 @@ Insurance:
 Digital Banking Services: 
 NatWest offers online and mobile banking platforms with features like mobile check deposit, bill payment, and budgeting tools.
 
- Using Data to Build and Improve Lloyds Banking Group Products:
+## Using Data to Build and Improve Lloyds Banking Group Products:
 
 
 1. Customer Segmentation:
@@ -122,7 +122,7 @@ NatWest offers online and mobile banking platforms with features like mobile che
 
 
 
-ML/Analytics Methodologies Relevant to Lloyds Banking Group:
+## ML/Analytics Methodologies Relevant to Lloyds Banking Group:
 
 1. Machine Learning for Credit Scoring:
    - Use machine learning models to assess credit risk and improve credit scoring algorithms, allowing Lloyds to make more accurate lending decisions.
@@ -189,44 +189,50 @@ Utilise graph analytics to detect and prevent financial crimes such as money lau
 By leveraging data analytics and machine learning methodologies tailored to the specific needs of Lloyds Banking Group, the bank can enhance its product offerings, improve operational efficiency, and deliver superior customer experiences in an increasingly competitive financial landscape.
 
 
+
+
 Ekene Amaechi - 20/02/2024
 
-Llyods Banking Group
+## Llyods Banking Group
 Group contains the following banks:
+
 •	Llyods Bank
+
 •	Halifax
+
 •	Bank of Scotland
 
-Llyods products and services
-Savings accounts	
-Current accounts	
-Credit cards	
-Car finance	
-Re-mortgage deals	
-Ready made investments from £50	
-Home Insurance	
-Personal loans	
-Business bank account	
-Take card payments	
-Mortgage calculator
+## Llyods products and services
+
+- Savings accounts
+- Current accounts
+- Credit cards
+- Car finance
+- Re-mortgage deals	
+- Ready made investments from £50	
+- Home Insurance	
+- Personal loans	
+- Business bank account	
+- Take card payments	
+- Mortgage calculator
 Overdraft
 
-### Current bank Rankings
-•	Halifax ranked 5th in overall service quality out of 16 (Feb 2024)
-•	Lloyds ranked 7th in overall service quality out of 16 (Feb 2024)
-•	Llyods Group ranked 8th in re-imbursing monies lost due to fraud out of 14 (2022) 49% reimbursements. 
+## Current bank Rankings
+-	Halifax ranked 5th in overall service quality out of 16 (Feb 2024)
+-	Lloyds ranked 7th in overall service quality out of 16 (Feb 2024)
+-	Llyods Group ranked 8th in re-imbursing monies lost due to fraud out of 14 (2022) 49% reimbursements. 
 FYI this is a low rank. Banks doing better are TSB, nationwide, HSBC UK, first direct and, Barclays are doing better with 70% or higher.
-•	Llyods group ranked 5th in sent fraud transactions out of 14 (2022) £274 million. FYI this is an average score. 
+-	Llyods group ranked 5th in sent fraud transactions out of 14 (2022) £274 million. FYI this is an average score. 
 Banks doing worse are TSB, Santander, Metro Bank, and Monzo.
-•	Llyods group ranked 18th in received fraud transactions out of 20 (2022) £115 million. FYI this is an very good score. 
+-	Llyods group ranked 18th in received fraud transactions out of 20 (2022) £115 million. FYI this is an very good score. 
 Banks doing worse are TSB, Santander, Metro Bank, Monzo with Clearjunction the worst.
 
-ML/Analytics in banking literature
-•	Predictive Analytics and Machine Learning in Direct Marketing for Anticipating Bank Term Deposit Subscriptions (link below)
-https://www.researchgate.net/profile/Ahmed-Mohamed-Zaki/publication/376585755_Predictive_Analytics_and_Machine_Learning_in_Direct_Marketing_for_Anticipating_Bank_Term_Deposit_Subscriptions/links/658a883d0bb2c7472b105cae/Predictive-Analytics-and-Machine-Learning-in-Direct-Marketing-for-Anticipating-Bank-Term-Deposit-Subscriptions.pdf
-•	Machine Learning Applied to Banking Supervision a Literature Review (link below)
+## ML/Analytics in banking literature
+-	Predictive Analytics and Machine Learning in Direct Marketing for Anticipating Bank Term Deposit Subscriptions (link below): https://www.researchgate.net/profile/Ahmed-Mohamed-Zaki/publication/376585755_Predictive_Analytics_and_Machine_Learning_in_Direct_Marketing_for_Anticipating_Bank_Term_Deposit_Subscriptions/links/658a883d0bb2c7472b105cae/Predictive-Analytics-and-Machine-Learning-in-Direct-Marketing-for-Anticipating-Bank-Term-Deposit-Subscriptions.pdf
+-	Machine Learning Applied to Banking Supervision a Literature Review (link below)
 https://www.mdpi.com/2227-9091/9/7/136
-Sectors
+
+### Sectors
 - stress test
 - bank risk
 - credit risk
