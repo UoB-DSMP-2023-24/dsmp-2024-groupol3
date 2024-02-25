@@ -1,0 +1,80 @@
+purchase_type,purchase_category,purchase_subcategory
+a cafe,Coffee/Cafe,Cafe
+a local coffee shop,Coffee/Cafe,Cafe
+a supermarket,Grocery,General Retail
+accessory shop,Misc,Fashion & Apperal
+bar,Bar/Pub,Bar & Drinks
+bookshop,Misc,Book & Media
+butchers,Grocery,Grocery
+butcher,Grocery,Grocery
+cafe,Coffee/Cafe,Cafe
+childrends shop,Misc,Childrens Shop & Toys
+chinese restaurant,Eating Out/Leis,Food & Beverages
+chinese takeaway,Eating Out/Leis,Food & Beverages
+cinema,Eating Out/Leis,Leisure
+clothes shop,Misc,Fashion & Apperal
+cocktail bar,Bar/Pub,Bar & Drinks
+coffee shop,Coffee/Cafe,Cafe
+comic book shop,Misc,Book & Media
+cookshop,Misc,Home Shop & Home Improvements
+department store,Misc,Home Shop & Home Improvements
+diy store,Misc,Home Shop & Home Improvements
+dvd shop,Misc,Book & Media
+electronics shop,Misc,Electronics & Technology
+express supermarket,Grocery,General Retail
+fashion shop,Misc,Fashion & Apperal
+fashionable sportsware shop,Misc,Fashion & Apperal
+florist,Misc,Gifts & Souvenirs
+g&t bar,Bar/Pub,Bar & Drinks
+game shop,Misc,Electronics & Technology
+gourmet coffee shop,Coffee/Cafe,Cafe
+greengrocer,Grocery,Grocery
+gym,Eating Out/Leis,Health & Fitness
+hipster coffee shop,Coffee/Cafe,Cafe
+hipster electronics shop,Misc,Electronics & Technology
+home improvement store,Misc,Home Shop & Home Improvements
+indian restaurant,Eating Out/Leis,Food & Beverages
+jewllery shop,Misc,Fashion & Apperal
+kebab shop,Eating Out/Leis,Food & Beverages
+kids activity centre,Misc,Leisure
+kids clothing shop,Misc,Fashion & Apperal
+large supermarket,Grocery,General Retail
+liquor store,Bar/Pub,Food & Beverages
+local bookshop,Misc,Book & Media
+local pub,Bar/Pub,Bar & Drinks
+local restaurant,Eating Out/Leis,Food & Beverages
+local watering hole,Bar/Pub,Bar & Drinks
+lunch place,Eating Out/Leis,Food & Beverages
+lunch van,Eating Out/Leis,Food & Beverages
+nerdy book store,Misc,Book & Media
+pet shop,Misc,Pet Food & Supplies
+pet toy shop,Misc,Pet Food & Supplies
+pretentious coffee shop,Coffee/Cafe,Cafe
+pub,Bar/Pub,Bar & Drinks
+restaurant,Eating Out/Leis,Food & Beverages
+restaurant voucher,Eating Out/Leis,Food & Beverages
+roasterie,Coffee/Cafe,Cafe
+running shop,Misc,Fashion & Apperal
+sandwich shop,Eating Out/Leis,Food & Beverages
+school supply store,Misc,Stationary & Office Supplies
+seafood resaurant,Eating Out/Leis,Food & Beverages
+second hand bookshop,Misc,Book & Media
+sport shop,Misc,Fashion & Apperal
+steak house,Eating Out/Leis,Food & Beverages
+streaming service,Eating Out/Leis,Subscriptions
+takeaway,Eating Out/Leis,Food & Beverages
+takeaway curry,Eating Out/Leis,Food & Beverages
+tea shop,Coffee/Cafe,Cafe
+tech shop,Misc,Electronics & Technology
+the supermarket,Grocery,General Retail
+to bean or not to bean,Coffee/Cafe,Cafe
+totally a real coffee shop,Coffee/Cafe,Cafe
+toy shop,Misc,Childrens Shop & Toys
+trainer shop,Misc,Fashion & Apperal
+turkey farm,Grocery,Grocery
+video game store,Misc,Book & Media
+we have bean weighting,Coffee/Cafe,Cafe
+whiskey bar,Bar/Pub,Bar & Drinks
+whiskey shop,Bar/Pub,Food & Beverages
+wine bar,Bar/Pub,Bar & Drinks
+wine cellar,Bar/Pub,Food & Beverages
