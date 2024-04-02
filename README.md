@@ -30,6 +30,13 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 The CSV (Purchase Type Grouping) was extracted directly from the data using a select query, where I exported all the distinct purchase types that were not numerical. This should be the basis of our grouping. Alterations can be made dependent on the individual's description. 
 
+## Data Exploration Cafe/Coffee EDA
+
+After grouping the transactions based on name, I focused on the cafe and coffee businesses. Dissected the data by time, day and month. Following these findings, we can make suggestions for Cashback.
+
+All the extracts and thoughts can be found in the notebook below.
+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6510081755675969/4462911155822250/568697543492321/latest.html
 
 
 
