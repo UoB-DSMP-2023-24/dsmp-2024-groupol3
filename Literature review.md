@@ -1,17 +1,34 @@
 # Literature Review
+The goal of this literature review is to offer theoretical background for the models chosen for customer segmentation in this project. This section discusses customer segmentation and its usefulness to a business. K-means clustering using RFM (Recency, Frequency, and Monetary) model and various distance metrics is also discussed and its performance evaluated. Finally, DBSCAN (Density-Based Spatial Clustering of Application with Noise) is also evaluated. DBSCAN advantages, disadvantages and modifications are highlighted.
+## Customer segmentation
+The goal of customer segmentation is to put customers into groups according to their traits and transactional behaviour. Through customer segmentation, businesses can offer more specialised care and services (Solichin and Wibowo, 2022, pp.257–262).
+According to Solichin and Wibowo (2022, pp.257–262), Customer segmentation is done by splitting every customer into multiple groups based on the similarity of their behaviour. As the number of customers and transactions grows, the segmentation process becomes more challenging when done manually. As a result, data mining methods will be particularly useful for analysing data to identify patterns, which will subsequently be used as new knowledge. The following clustering algorithms we will be considering are K-means and DBSCAN.
 
-### The following papers are under consideration to be used in the Lit review section
+## K-Means Clustering
+K-means clustering is a common clustering algorithm used for customer segmentation. K-Means is a non-hierarchical clustering approach that divides or classifies existing data into one or more categories (Solichin and Wibowo, 2022, pp.257–262).
 
-Using Data Analytics for Customers Segmentation: Experimental Study at a Financial Institution: https://ieeexplore.ieee.org/document/8552951 
- 
-Customer Segmentation Based on Recency Frequency Monetary (RFM) and User Event Tracking (UET) Using K-Means Algorithm
-https://ieeexplore.ieee.org/document/10009981
- 
-Performance evaluation of K-means clustering algorithm with various distance metrics
-https://ieeexplore.ieee.org/document/7853264
- 
-DBSCAN Clustering Algorithm Based on Density
-https://ieeexplore.ieee.org/document/9356727
- 
-Research and Improvement of DBSCAN Cluster Algorithm
-https://ieeexplore.ieee.org/document/7429207
+Gončarovs ( 2018, p.1) suggested the Baltic bank segment customers by manually identifying microsegments and utilising k-means clustering and Kohonen's Self-Organizing Map (SOM) to locate the final segments, resulting in more focused and precise offerings for certain customer groups. Customers were manually split into 5 categories: activeness, demographical, attitudes, wealth, and purchase needs. The result was then used as the input for K-means clustering to provide the final segments. K-means was then compared with Kohonen’s SOM and found that K-means was simpler and easier to implement while SOM performs better for noise detection.
+
+Solichin and Wibowo (2022, pp. 257–262) used the RFM (Recency, Frequency, Monetary) model and UET (User Event Tracking) data with K-Means clustering to segment customers from an Indonesian e-commerce company. The customer data is initially sent via the RFM model, which uses UET data to obtain extra recency and frequency data, before being fed into the K-means clustering method. The Elbow and Silhouette score methods are used to determine the ideal number of clusters (k value). Random k values were chosen, and the quality of the cluster distance was assessed using the Sum of Square Distance (SSD) and Silhouette Coefficient Scores (SCS). The ideal k value was 3, calculated by taking the mean of the SSD elbow value and the highest SCS value. Customers were separated into three groups: silver, gold, and platinum. To decide which cluster belongs to each group, the Simple Additive Weighting (SAW) approach is used. The results showed that the K-Means approach effectively segmented the data and divided customers into three clusters: Silver (41.5%), Gold (9.5%), and Platinum (48.7%).
+
+Kapil and Chawla (2016, p.1) set out to assess the efficacy of the K-Means clustering algorithm using different distance metrics. Two distance functions were accessed: the Euclidean and Manhattan distance functions. The distance functions were compared based on the number of iterations, sum squared errors, and time required to generate the whole model. The results show that K-means clustering using Euclidean distance outperforms K-means clustering using Manhattan distance in terms of the number of iterations, sum squared errors, and time required to create the model.
+
+
+## DBSCAN
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a density-based clustering algorithm. Deng (2020, pp.949–953) discusses the DBSCAN algorithm and then conducts performance testing on three different data sets. Before starting the DBSCAN algorithm, the user must set the global constant parameters for neighbourhood distance and density threshold. The neighbourhood distance and distance threshold remain constant after the initialization. The DBSCAN algorithm utilises the input neighbourhood distance (clustering radius) and density threshold to randomly select core points for clustering in a pattern of neighbourhood expansion. Two of the three datasets are randomly produced sample points that follow a Gaussian distribution, whereas the third dataset is credit card user consumption among telecom subscribers. Deng concluded that the DBSCAN algorithm has greater homogeneity and diversity while performing personalised clustering on data sets with non-uniform density, broad values, and gradually sparse forwards.
+
+Meng'Ao et al. (2015, p.537) emphasises that DBSCAN can locate clusters of any size or form, properly identify outliers, and is insensitive to input sequence, nevertheless point out the algorithm's time cost as a downside. Meng'Ao et al. offer a tweak to reduce the algorithm's time complexity. Meng'Ao et al. offer a grid-based DBSCAN algorithm. The most time-consuming query processes are optimised by splitting the data space into grid cells. The effect of these grid cells is investigated, and the results reveal improved accuracy and reduced time complexity.
+
+Following the same path as the research, in order to perform customer segmentation on Llyods bank customer data, this project investigates the result of segmentation using a range of methods from Dendrograms to  K-means and DBSCAN.
+
+
+# Bibliography
+Deng, D. (2020) DBSCAN Clustering Algorithm Based on Density. In: 2020 7th International Forum on Electrical Engineering and Automation (IFEEA) [online]. September 2020 (no place) IEEE. pp. 949–953. Available from: https://ieeexplore.ieee.org/document/9356727doi:10.1109/IFEEA51475.2020.00199.
+
+Goncarovs, P. (2018) Using Data Analytics for Customers Segmentation: Experimental Study at a Financial Institution. In: The Institute of Electrical and Electronics Engineers, Inc. (IEEE) Conference Proceedings [online]. 1 January 2018 Piscataway: The Institute of Electrical and Electronics Engineers, Inc. (IEEE). pp. 1. Available from: https://search.proquest.com/docview/2148293388.
+
+Kapil, S. and Chawla, M. (2016) Performance evaluation of K-means clustering algorithm with various distance metrics. In: The Institute of Electrical and Electronics Engineers, Inc. (IEEE) Conference Proceedings [online]. 1 January 2016 Piscataway: The Institute of Electrical and Electronics Engineers, Inc. (IEEE). pp. 1. Available from: https://search.proquest.com/docview/1869416559.
+
+Meng’Ao, L., Dongxue, M., Songyuan, G. and Shufen, L. (2015) Research and Improvement of DBSCAN Cluster Algorithm. In: The Institute of Electrical and Electronics Engineers, Inc. (IEEE) Conference Proceedings [online]. 1 January 2015 Piscataway: The Institute of Electrical and Electronics Engineers, Inc. (IEEE). pp. 537. Available from: https://search.proquest.com/docview/1786967790.
+
+Solichin, A. and Wibowo, G. (2022) Customer Segmentation Based on Recency Frequency Monetary (RFM) and User Event Tracking (UET) Using K-Means Algorithm. In: 2022 IEEE 8th Information Technology International Seminar (ITIS) [online]. 19 October 2022 Piscataway: IEEE. pp. 257–262. Available from: https://ieeexplore.ieee.org/document/10009981doi:10.1109/ITIS57155.2022.10009981.
